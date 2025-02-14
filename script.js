@@ -14,7 +14,7 @@ function selectMood(mood) {
             <button class="option" onclick="showNextStep('memories')">our memories</button>
             <button class="option" onclick="showNextStep('talks')">our talks</button>
             <button class="option" onclick="showNextStep('future')">our future</button>
-            <button class="option" onclick="showNextStep('everything')">me</button>
+            <button class="option" onclick="showNextStep('everything')">ani</button>
         `;
     } else if (mood === "okay") {
         question = "What's something small that can make you smile?";
